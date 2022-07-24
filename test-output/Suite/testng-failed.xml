@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Estore.testclass.AccountCreationPageTest">
+        <methods>
+          <include name="verifyCreateAccountPageTest"/>
+          <include name="createAccountTest"/>
+          <include name="browserlaunch"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- com.Estore.testclass.AccountCreationPageTest -->
+      <class name="com.Estore.testclass.OrderPageTest">
+        <methods>
+          <include name="verifyTotalPrice"/>
+          <include name="browserlaunch"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- com.Estore.testclass.OrderPageTest -->
+      <class name="com.Estore.testclass.IndexPageTest">
+        <methods>
+          <include name="verifyLogo"/>
+          <include name="verifyTitle"/>
+          <include name="browserlaunch"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- com.Estore.testclass.IndexPageTest -->
+      <class name="com.Estore.testclass.EndToEndTest">
+        <methods>
+          <include name="endToEndTest"/>
+          <include name="browserlaunch"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- com.Estore.testclass.EndToEndTest -->
+      <class name="com.Estore.testclass.SearchResultPageTest">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="productAvailabilityTest"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- com.Estore.testclass.SearchResultPageTest -->
+      <class name="com.Estore.testclass.HomePageTest">
+        <methods>
+          <include name="wishListTest"/>
+          <include name="orderHistoryandDetailsTest"/>
+          <include name="browserlaunch"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- com.Estore.testclass.HomePageTest -->
+      <class name="com.Estore.testclass.AddToCartPageTest">
+        <methods>
+          <include name="addToCartTest"/>
+          <include name="browserlaunch"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- com.Estore.testclass.AddToCartPageTest -->
+      <class name="com.Estore.testclass.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="browserlaunch"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- com.Estore.testclass.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

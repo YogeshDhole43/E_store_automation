@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Estore.testclass.IndexPageTest"/>
+      <class name="com.Estore.testclass.OrderPageTest"/>
+      <class name="com.Estore.testclass.LoginPageTest"/>
+      <class name="com.Estore.testclass.EndToEndTest"/>
+      <class name="com.Estore.testclass.SearchResultPageTest"/>
+      <class name="com.Estore.testclass.HomePageTest"/>
+      <class name="com.Estore.testclass.AccountCreationPageTest"/>
+      <class name="com.Estore.testclass.AddToCartPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
